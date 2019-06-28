@@ -36,3 +36,9 @@ body{
 
 }
 
+
+#progress{
+    background:linear-gradient(to right,rgba(0,0,0,.6),rgba(0,0,0,.8)), url(../images/header.bcg.jpeg)center/cover no-repeat fixed;
+
+}
+
