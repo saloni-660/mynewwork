@@ -3,8 +3,27 @@
 }*/
 
 
+
+body{
+position: relative;
+padding-top: 3.5rem;
+    
+}
+
+
+.starter-template{
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+#about{
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+/*Navbar*/
+
 .carousel-caption{
-    padding-bottom: 10%;
+    padding-bottom: 12%;
     
 
     
@@ -19,6 +38,368 @@
 
 .carousel-caption p{
     font-size: 24px;
-    color: antiquewhite;
+    color: #21ddfb;
 }
 
+.container row{
+    margin-top: 15px;
+}
+
+/*buttons*/
+.btn-primary{
+    background-color: #21ddfb;
+    border: 3px solid transparent;
+    padding: 1rem 4rem;
+    width: 225px; 
+    
+}
+
+/*  Navbar  */
+
+.bg-dark {
+    background-color: #21ddfb!important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+   
+       border-bottom: 2px solid #fff;
+    
+}
+
+
+.active{
+    border-bottom: 2px solid #fff;
+}
+
+
+.btn-primary:hover{
+    background-color: transparent;
+    border: 3px solid #21ddfb;
+    color: #21ddfb;
+    
+}
+
+
+.btn-primary:active{
+    background-color: transparent!important;
+    border: 3px solid #21ddfb!important;
+    color: #21ddfb!important;
+    
+}
+
+
+/*Specials*/
+
+.specials{
+    background-color: #2b2b2b;
+    padding: 50px 10px;
+
+
+}
+
+
+
+.specials h3{
+    color: #fff;
+}
+
+
+#team{
+    padding: 50px 10px;
+    background: linear-gradient(#21ddfb, #19a4ba);
+}
+
+
+
+
+/*       video  background    */
+
+.wclb{
+    padding-top: 300px;
+}
+
+
+
+
+/*  MENU  */
+
+
+#menu{
+    padding: 50px 10px;
+ }
+
+.card{
+    box-shadow: 2px 5px 20px #777;
+}
+
+.modal-content{
+    background-color: #21ddfb;
+}
+
+.modal-content h2 {
+    border-bottom: 2px solid #fff;
+}
+
+
+.mn{
+   color: #fff;
+}
+
+
+
+/*   Parallax   */
+#plx{
+    background-image: url(../images/photoshop/wine_4final.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wtitle{
+    padding: 250px 20px;
+    color: #fff;
+}
+
+.wtitle h2{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+/*  wines list */
+#wines{
+    padding: 100px 20px;
+    background: #21ddfb;
+}
+
+.wlt{
+    padding-bottom: 50px;
+}
+
+
+/*--jumbotron--*/
+
+#jumbo{
+    background: #e9ecef;
+}
+
+
+/*  overlay */
+
+.ovl{
+    opacity: 0;
+    transition: 1s;
+    text-align: center;
+}
+
+.ovl:hover
+{
+    opacity: 1;  
+    background: rgb(0,0,0,0.6);
+}
+
+/*   Locations   */
+
+#locations{
+    padding: 100px 50px;
+    background: url(../images/world_2.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.loc img{
+    transition-duration: 1.5s;
+    margin-right: 10px;
+}
+
+
+.loc img:hover{
+    transform:scale(3,3);
+    box-shadow: 5px 5px 15px #333;
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+/*   testimonials  */
+
+#testimonials{
+    background: #2b2b2b;
+}
+
+
+.revs{
+    padding: 100px;
+}
+
+
+.active{
+    border: none;
+}
+
+
+.carousel-inner{
+    min-height: 300px;
+}
+
+/* video section */
+
+#vid{
+    padding: 100px 0px;
+    background: #111;
+}
+
+/*   hiring   */
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+.hir h1{
+   
+    text-shadow: 5px 5px 10px #555;
+}
+
+/*   pop-up  */
+
+.pop-box{
+    width: 300px;
+    box-shadow: 5px 10px 25px #555;
+    position: fixed;
+    z-index: 9999;
+    right: -300px;
+    bottom: 15%;
+    transition: 0.75s ease-in-out;
+    -moz-transition: 0.75s ease-in-out;
+    -webkit-transition: 0.75s ease-in-out;
+}
+
+.pop{
+    width: 370px;
+   background: #21ddfb; 
+   margin-left: -53px;
+    margin-top: -2px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 25px #555;
+}
+
+.pop img{
+    padding-right:  58px;
+    
+}
+
+.pop-box:hover{
+    right: -2px;
+    
+}
+
+/*  number counter  */
+
+#numbers{
+    background: #21ddfb;
+    padding: 100px 0px;
+}
+
+
+.numc{
+    background: #fff;
+    height: 150px;
+    width: 150px;
+    padding-top: 50px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #21ddfb;
+    
+}
+
+
+.numd{
+    padding-top: 30px;
+}
+
+
+
+/*   Contact  */
+
+#contact {
+    padding: 100px 0;
+    box-shadow: 5px 10px 25px #555;
+    position: relative;
+    z-index: 22;
+}
+
+.cbtn{
+    margin-top: 57px;
+}
+
+
+/*    Footer   */
+#footer{
+    background: #333;
+    padding: 10px; 
+}
+
+
+.cpt{
+    padding-top: 10px;
+   
+}
+
+.ftaw i{
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-right: 10px;
+    
+}
+
+
+.btt{
+    display: none;
+    background: #21ddfb7a;
+    width: 65px;
+    height: 60px;
+    position: fixed;
+    right: -12px;
+    bottom: 10px;
+    z-index: 9998;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 5px 5px;
+}
+ 
+
+.btt:hover{
+    background: #21ddfb;
+    box-shadow:  5px 10px 25px #555;
+}
+
+.btt i{
+    color: #ffffff7a;
+    font-size: 45px;
+    align-self: center;
+}
+
+
+.btt i:hover{
+    color: #ffffff;
+ }
+
+.hide{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+    display: block;
+}
