@@ -47,9 +47,14 @@
     
 }
 
-.form-control{
+/*.form-control{
     height: 28px;
     width: 30px;
+}*/
+
+.f{
+     height: 23px;
+    width: 150px; 
 }
 
 p {
@@ -97,58 +102,61 @@ body{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   
-    margin-left: 5px;
+    margin-left: 0;
 }
 
 
 .body_fb{
-    margin-top: 80px;
+    margin-top: 0;
     width: 100%;
 
 }
 
 .para h2{
-    padding-left: 20px;
+    padding-left: 50px;
     padding-top: 23px;
     font-weight: 700;
 }
 
 .right p{
-margin-left: 24px;
+margin-left: 54px;
     font-size: 20px;
     padding-top: 5px;
 }
 
 .first_name{
     margin-top: 20px;
-    margin-left: 26px;
+    margin-left: 56px;
     height: 40px;
      padding: 7px;
+    width: 198px;
     
 }
 
 .last_name{
     margin-top: 20px;
-    margin-left: -17px;
+    margin-left: 13px;
     height: 40px;
      padding: 7px;
+    width: 198px;
+    
 }
 
 
 .mob_no{
     width: 405px;
-        margin-top: 15px;
-     margin-left: 26px;
+        margin-top: 10px;
+     margin-left: 56px;
     height: 40px;
      padding: 7px;
 }
 
 .pass{
     width: 405px;
-     margin-left: 26px;
+     margin-left: 56px;
     height: 40px;
     padding: 7px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 
@@ -157,12 +165,12 @@ margin-left: 24px;
     font-size: 19px;
     font-weight: bold;
     margin-top: 17px;
-         margin-left: 26px;
+         margin-left: 56px;
 }
 
 .date{
     margin-top: 4px;
-         margin-left: 12px; 
+    margin-left: 42px; 
 }
 
 select{
@@ -176,8 +184,9 @@ select{
         color: #1d2129!important;
     font-size: 18px !important;
     font-weight: normal!important;
-       margin-left: 15px;
-    padding: 0 10px 0 3px!important;
+       margin-left: 73px;
+    padding: 0 10px 0 5px!important;
+    margin-top: 10px;
 
   
 }
@@ -185,8 +194,11 @@ select{
      color: #1d2129!important;
     font-size: 18px !important;
     font-weight: normal!important;
-  margin-left: -50px;
-       padding: 0 10px 0 3px!important;;
+  margin-left: -35px;
+       padding: 0 10px 0 5px!important;
+        
+     margin-top: 10px;
+
 
 }
 
@@ -194,39 +206,67 @@ select{
 .gen3{
          color: #1d2129!important;
     font-size: 18px !important;
-       padding: 0 10px 0 3px!important;
+       padding: 0 10px 0 5px!important;
     font-weight: normal!important;
-  margin-left: -70px;
+  margin-left: -40px;
+     margin-top: 10px;
 }
 
 #terms{
     
    color: #777;
     font-size: 12px;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 
 .btn-success{
-     margin-left: 44px;
+     margin-left: 74px;
     width: 175px;
     margin-top: 18px;
-}
-
-#page{
-    
-   color: #777;
-    font-size: 12px;
-    margin-left: 30px;
     font-weight: bold;
-    margin-top: 40px;
+    text-rendering: optimizelegibility;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
 }
 
 
+.pg{
+    color: #777;
+    font-size: 12px!important;
+    margin-left: 57px!important;
+    font-weight: bold;
+    margin-top: 15px;
+}
 
 
+#footer{
+    font-size: 13px;
+    margin-top: 25px;
+ 
+    width: 100%;
+    align-items: center
+}
 
 
+.foot{
+    padding-top: 20px;
+        line-height: 1.6;
+      
+}
+
+.foot a{
+    padding-right: 12px;
+    padding-bottom: 10px;
+}
+
+
+.copy{
+    color: #555;
+    margin-top: 10px;
+}
 
 
 
