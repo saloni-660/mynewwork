@@ -1,6 +1,7 @@
 .navbar{
     Background: #3B5998;
     height: 82px;
+    min-width: 1200px;
 }
 
 
@@ -245,21 +246,26 @@ select{
 #footer{
     font-size: 13px;
     margin-top: 25px;
- 
-    width: 100%;
-    align-items: center
+   min-width: 1200px;
+
+   
+        
 }
 
 
 .foot{
     padding-top: 20px;
         line-height: 1.6;
+    
+ 
+   
       
 }
 
 .foot a{
     padding-right: 12px;
     padding-bottom: 10px;
+    
 }
 
 
